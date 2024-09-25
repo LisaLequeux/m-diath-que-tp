@@ -16,7 +16,7 @@ public class Mediatheque {
 	}
 
 	public void BookPrinter() {
-		System.out.println("Impression de livres");
+		System.out.println("Impression des livres");
 		BookPrinter bookPrinter = new BookPrinter();
 		for (Item i : items)
 			i.accept(bookPrinter);
