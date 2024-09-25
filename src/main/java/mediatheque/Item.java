@@ -20,5 +20,6 @@ public abstract class Item {
 	public String toString() {
 		return title;
 	}
-	
+
+    public abstract void accept(ItemVisitor v);
 }
